@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import '../models/book_model.dart';
 
-abstract class BooksApiService {
+ class BooksApiService {
   static const String _apiBaseUrl = "https://www.googleapis.com/books/v1";
 
   static Future<List<BookModel>> fetchFeaturedBooks() async {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widgets/splash_view_body.dart';
-import '../../home/views/home_view.dart';
+import '../../../home/views/home_view.dart';
 
 
 class SplashView extends StatefulWidget {

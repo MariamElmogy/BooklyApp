@@ -15,7 +15,9 @@ class CustomAppBarHomeView extends StatelessWidget {
           Image.asset(AppImages.kLogo, height: 18),
           IconButton(
             icon: const Icon(Icons.search, color: Colors.white),
-            onPressed: () {},
+            onPressed: () {
+              // 3ayza a3ml widget searchView
+            },
           ),
         ],
       ),
