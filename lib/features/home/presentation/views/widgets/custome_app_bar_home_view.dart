@@ -1,6 +1,6 @@
+import 'package:bookly_app/core/utils/app_images.dart';
 import 'package:flutter/material.dart';
-
-import '../../../../utils/app_images.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CustomAppBarHomeView extends StatelessWidget {
   const CustomAppBarHomeView({super.key});
@@ -13,10 +13,11 @@ class CustomAppBarHomeView extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Image.asset(AppImages.kLogo, height: 18),
+          const Spacer(),
           IconButton(
-            icon: const Icon(Icons.search, color: Colors.white),
+            icon: const Icon(FontAwesomeIcons.magnifyingGlass, size: 24),
             onPressed: () {
-              // 3ayza a3ml widget searchView
+              // widget searchView
             },
           ),
         ],

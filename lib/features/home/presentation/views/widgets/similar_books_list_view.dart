@@ -1,7 +1,7 @@
-import 'package:bookly_app/features/home/widgets/similar_books_item.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/similar_books_item.dart';
 import 'package:flutter/material.dart';
 
-import '../../../models/book_model.dart';
+import '../../../../../models/book_model.dart';
 import 'book_details_view.dart';
 
 class SimilarBooksListView extends StatelessWidget {

@@ -1,6 +1,6 @@
+import 'package:bookly_app/core/utils/app_colors.dart';
+import 'package:bookly_app/core/utils/app_fonts.dart';
 import 'package:bookly_app/models/book_model.dart';
-import 'package:bookly_app/utils/app_colors.dart';
-import 'package:bookly_app/utils/app_fonts.dart';
 import 'package:flutter/material.dart';
 
 class BookTitle extends StatelessWidget {

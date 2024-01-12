@@ -1,9 +1,8 @@
-import 'package:bookly_app/features/home/widgets/similar_books_list_view_future_builder.dart';
+import 'package:bookly_app/core/utils/app_colors.dart';
+import 'package:bookly_app/core/utils/app_fonts.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/similar_books_list_view_future_builder.dart';
 import 'package:bookly_app/models/book_model.dart';
-import 'package:bookly_app/utils/app_colors.dart';
-import 'package:bookly_app/utils/app_fonts.dart';
 import 'package:flutter/material.dart';
-
 import 'book_author.dart';
 import 'book_detail_item.dart';
 import 'book_image.dart';

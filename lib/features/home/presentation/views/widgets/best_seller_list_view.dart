@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../models/book_model.dart';
+import '../../../../../models/book_model.dart';
 import 'best_seller_item.dart';
 import 'book_details_view.dart';
 

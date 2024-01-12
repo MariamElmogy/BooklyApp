@@ -1,5 +1,5 @@
-import 'package:bookly_app/features/home/presentation/views/custome_app_bar_home_view.dart';
-import 'package:bookly_app/utils/app_fonts.dart';
+import 'package:bookly_app/core/utils/styles.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/custome_app_bar_home_view.dart';
 import 'package:flutter/material.dart';
 import 'best_seller_list_view_future_builder.dart';
 import 'featured_books_list_view_future_builder.dart';
@@ -24,11 +24,7 @@ class HomeViewBody extends StatelessWidget {
             padding: EdgeInsets.only(top: 48.0, left: 20),
             child: Text(
               'Best Seller',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                  fontFamily: AppFonts.headlinesFont),
+              style: Styles.titleMedium,
             ),
           ),
         ),

@@ -1,8 +1,7 @@
+import 'package:bookly_app/core/utils/book_api_service.dart';
 import 'package:bookly_app/features/home/cubits/home_cubit/featured_books_cubit/featured_books_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../utils/book_api_service.dart';
 import 'feature_book_list_view.dart';
 
 class FeaturedBooksListViewFutureBuilder extends StatelessWidget {

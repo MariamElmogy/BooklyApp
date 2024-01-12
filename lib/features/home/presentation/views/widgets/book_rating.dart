@@ -1,8 +1,7 @@
-import 'package:bookly_app/utils/app_colors.dart';
-import 'package:bookly_app/utils/app_fonts.dart';
+import 'package:bookly_app/core/utils/app_colors.dart';
+import 'package:bookly_app/core/utils/app_fonts.dart';
 import 'package:flutter/material.dart';
-
-import '../../../models/book_model.dart';
+import '../../../../../models/book_model.dart';
 
 class BookRating extends StatelessWidget {
   const BookRating({super.key, required this.book});

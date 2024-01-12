@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../presentation/views/home_view.dart';
+import '../home_view.dart';
 
 class CustomAppBarClickedBook extends StatelessWidget {
   const CustomAppBarClickedBook({super.key});

@@ -1,9 +1,9 @@
+import 'package:bookly_app/core/utils/book_api_service.dart';
 import 'package:bookly_app/features/home/cubits/home_cubit/similar_books_cubit/similar_books_cubit.dart';
-import 'package:bookly_app/features/home/widgets/similar_books_list_view.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/similar_books_list_view.dart';
 import 'package:bookly_app/models/book_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../utils/book_api_service.dart';
 
 class SimilarBooksListViewFutureBuilder extends StatelessWidget {
   const SimilarBooksListViewFutureBuilder({super.key, required this.book});

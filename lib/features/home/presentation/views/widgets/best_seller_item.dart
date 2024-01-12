@@ -1,9 +1,8 @@
-import 'package:bookly_app/utils/app_colors.dart';
-import 'package:bookly_app/utils/app_fonts.dart';
+import 'package:bookly_app/core/utils/app_colors.dart';
+import 'package:bookly_app/core/utils/app_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-
-import '../../../models/book_model.dart';
+import '../../../../../models/book_model.dart';
 
 class BestSellerItem extends StatelessWidget {
   const BestSellerItem({super.key, required this.book});

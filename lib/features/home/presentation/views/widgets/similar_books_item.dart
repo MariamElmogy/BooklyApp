@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../../models/book_model.dart';
+import '../../../../../models/book_model.dart';
 
 class SimilarBooksItem extends StatelessWidget {
   const SimilarBooksItem({super.key, required this.book});
