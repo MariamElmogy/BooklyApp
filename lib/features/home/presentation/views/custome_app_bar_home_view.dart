@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../utils/app_images.dart';
+import '../../../../utils/app_images.dart';
 
 class CustomAppBarHomeView extends StatelessWidget {
   const CustomAppBarHomeView({super.key});

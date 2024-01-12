@@ -1,7 +1,8 @@
 import 'package:bookly_app/features/splash/presentation/views/splash_view.dart';
-import 'package:bookly_app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'core/utils/app_colors.dart';
 
 main() async {
   runApp(const BoobklyApp());
@@ -26,7 +27,8 @@ class BoobklyApp extends StatelessWidget {
     // );
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith( // check the defult theme --> is dark 
+      theme: ThemeData.dark().copyWith(
+        // check the defult theme --> is dark
         scaffoldBackgroundColor: AppColors.kPrimaryColor,
       ),
       home: const SplashView(),

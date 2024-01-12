@@ -1,6 +1,8 @@
+import 'package:bookly_app/core/utils/app_images.dart';
+import 'package:bookly_app/features/home/presentation/views/home_view.dart';
 import 'package:bookly_app/features/splash/presentation/views/widgets/sliding_text.dart';
-import 'package:bookly_app/utils/app_images.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({
@@ -26,6 +28,8 @@ class _SplashViewBodyState extends State<SplashViewBody>
   @override
   void initState() {
     initSlidingAnimation();
+    navigationControl();
+
     super.initState();
   }
 
@@ -45,6 +49,17 @@ class _SplashViewBodyState extends State<SplashViewBody>
         const SizedBox(height: 4),
         SlidingText(slidingAnimation: slidingAnimation),
       ],
+    );
+  }
+
+  void navigationControl() {
+    Future.delayed(
+      const Duration(seconds: 2),
+      () {
+        Get.to(() => const HomeView(),
+            transition: Transition.fade,
+            duration: const Duration(milliseconds: 250));
+      },
     );
   }
 
